@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Portofolio</string>
+    <string name="name">Ryan Aprianto</string>
+    <string name="my_works">My Works</string>
+    <string name="software_engineer">Software engineer</string>
+    <string name="list_of_my_works">List of my works</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="back_button">Back Button</string>
+    <string name="bio"><![CDATA[I am a Programmer with 3 years of work experience.\n\nFamiliar with:\n- Codeigniter\n- Laravel\n- Node Js (Express js)\n- React (React.js, React Native & Next.js)]]></string>
+    <string name="let_s_connect">Let\'s Connect</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="email">Ryan.Aprianto77777@gmail.com</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+</resources>

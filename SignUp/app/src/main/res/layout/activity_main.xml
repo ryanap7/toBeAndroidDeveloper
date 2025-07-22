@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/neutral_10"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="16dp"
+            android:paddingVertical="8dp"
+            android:gravity="center"/>
+
+        <!-- Apple Sign Up -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_up_apple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_apple"
+            android:drawablePadding="10dp"
+            android:text="@string/sign_up_with_apple"
+            android:backgroundTint="@color/btn_color"
+            android:textColor="@color/neutral_10"
+            android:layout_marginBottom="12dp"
+            android:paddingStart="98dp"
+            android:gravity="start|center_vertical"
+            tools:ignore="RtlSymmetry" />
+
+        <!-- Google Sign Up -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_up_google"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_google"
+            android:drawablePadding="10dp"
+            android:text="@string/sign_up_with_google"
+            android:backgroundTint="@color/btn_color"
+            android:textColor="@color/neutral_10"
+            android:layout_marginBottom="12dp"
+            android:paddingStart="92dp"
+            android:gravity="start|center_vertical"
+            tools:ignore="RtlSymmetry" />
+
+        <!-- SMS Sign Up -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_up_sms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_sms"
+            android:drawablePadding="10dp"
+            android:text="@string/sign_up_with_sms"
+            android:backgroundTint="@color/btn_color"
+            android:textColor="@color/neutral_10"
+            android:layout_marginBottom="16dp"
+            android:paddingStart="98dp"
+            android:gravity="start|center_vertical"
+            tools:ignore="RtlSymmetry" />
+
+        <!-- OR Divider -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            android:paddingVertical="4dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/or"
+                android:textColor="@color/neutral_40"
+                android:paddingHorizontal="16dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/line" />
+        </LinearLayout>
+
+        <!-- Full name -->
+        <EditText
+            android:id="@+id/et_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="14sp"
+            android:hint="@string/full_name"
+            android:textColorHint="@color/black_00"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_text_outline"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:inputType="text"
+            android:autofillHints="name"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="14sp"
+            android:hint="@string/email"
+            android:textColorHint="@color/black_00"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_text_outline"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="14sp"
+            android:hint="@string/password"
+            android:textColorHint="@color/black_00"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_text_outline"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="32dp"
+            android:inputType="textPassword"
+            android:autofillHints="password"/>
+
+        <!-- Create Account -->
+        <Button
+            android:id="@+id/btn_create_account"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/create_an_account"
+            android:textColor="@color/white"
+            android:background="@drawable/button_radius" />
+
+    </LinearLayout>
+</ScrollView>

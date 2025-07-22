@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Intent App</string>
+    <string name="logo">Logo</string>
+    <string name="announcement">Aplikasi ini memudahkan kamu untuk melakukan aksi cepat seperti menelepon dan browsing.</string>
+    <string name="enter_phone_number">Masukkan Nomor Telepon</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="phone">📞 Telepon</string>
+    <string name="open_browser">🌐 Buka Browser</string>
+    <string name="go">🚀 Go</string>
+    <string name="profile_page">Ini adalah halaman profile</string>
+    <string name="phone_required">Phone number is required</string>
+</resources>
